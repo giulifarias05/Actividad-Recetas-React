@@ -35,7 +35,7 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../public/fondococina.jpg'); /* Cambia la ruta a tu imagen de fondo */
+  background-image: url('../public/fondo.avif'); /* Cambia la ruta a tu imagen de fondo */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
@@ -83,28 +83,33 @@ body {
 
 /* cards styles */
 
+.card {
+  border: 1px solid #111010; /* Borde de 1px de grosor y color gris (#ccc) */
+  /* Otros estilos de la tarjeta */
+}
 .recipe-card {
-  background-color:#F5EFE0  ;
+  background-color:#f8f3ed  ;
   margin-top: 30px ; /* Agrega margen superior e inferior */
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
-  width: 700px;
-  height: 130px;
+  width: 600px;
+  height: 200px;
   align-items: flex-start;
 }
 
 
 .card-img img {
-  width: 150px; /* Ancho de la imagen */
-  height: 150px; /* Altura de la imagen */
+  width: 300px; /* Ancho de la imagen */
+  height: 200px; /* Altura de la imagen */
   object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
   display: block; /* Asegura que la imagen sea un elemento en línea */
   border-radius: 8px 0 0 8px; /* Agrega bordes redondeados si lo deseas */
   margin-right: 100px; /* Margen derecho para separar la imagen del texto */
   flex: 0 0 auto;
+  margin-right: 0px;
 }
 
 .card-body {
@@ -116,6 +121,7 @@ body {
 .card-title {
   font-size: 1.45rem;
   margin-top: 10px;
+  margin-right: 20px;
 }
 
 .card-text {
@@ -149,8 +155,23 @@ svg {
   justify-content: flex-start; /* Cambiado de "flex-end" a "flex-start" */
   margin-bottom: 10px; /* Espacio entre los iconos y el título/descripción */
 }
+.icon{
+  width: 40px;
+  height: 40px;
+}
 
 .more-info-icon {
   display: flex;
   align-items: center; /* Centra verticalmente el ícono */
 }
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none; /* Esto elimina las viñetas */
+  padding: 0; /* Elimina el espacio de relleno por defecto de las listas */
+
+}
+
+
