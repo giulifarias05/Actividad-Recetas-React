@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = (props) => {
-  const { imageSrc, title, description } = props;
+  const { imageSrc, title, description, iconPath1,iconPath2,iconPath3,iconPath4, iconText1,iconText2,iconText3,iconText4} = props;
 
   return (
     <div className="recipe-card">
@@ -16,28 +16,22 @@ const Card = (props) => {
           <p className="card-text">{description}</p>
         </div>
         <div className="more-info-icons">
-  {/* Ícono de "+" sin fondo */}
-  <div className="icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M12 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2 11h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"/>
-    </svg>
-  </div>
-    <div className="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M12 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2 11h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"/>
-    </svg>
-  </div>
-  <div className="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M12 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2 11h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"/>
-    </svg>
-  </div>
-  <div className="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M12 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2 11h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"/>
-    </svg>
-  </div>
+        <div className="icon">
+          <img src={iconPath1}  />
+          <span>{props.iconText1}</span>
+        </div>
+        <div className="icon">
+          <img src={iconPath2}  />
+          <span>{props.iconText2}</span>
+        </div>
+        <div className="icon">
+          <img src={iconPath3}  />
+          <span>{props.iconText3}</span>
+        </div>
+        <div className="icon">
+          <img src={iconPath4} />
+          <span>{props.iconText4}</span>
+        </div>
 </div>
       </ul>
     </nav>
