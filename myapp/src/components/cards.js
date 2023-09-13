@@ -18,19 +18,19 @@ const Card = (props) => {
         <div className="more-info-icons">
         <div className="icon">
           <img src={iconPath1}  />
-          <span>{props.iconText1}</span>
+          <span>{iconText1}</span>
         </div>
         <div className="icon">
           <img src={iconPath2}  />
-          <span>{props.iconText2}</span>
+          <span>{iconText2}</span>
         </div>
         <div className="icon">
           <img src={iconPath3}  />
-          <span>{props.iconText3}</span>
+          <span>{iconText3}</span>
         </div>
         <div className="icon">
           <img src={iconPath4} />
-          <span>{props.iconText4}</span>
+          <span>{iconText4}</span>
         </div>
 </div>
       </ul>
