@@ -13,19 +13,18 @@ code {
 }
 
  
-/* Navbar.css */
 .logo-image {
-  width: 50px; /* Ajusta el ancho del logo */
-  height: 50px; /* Ajusta la altura del logo */
+  width: 50px; 
+  height: 50px; 
 }
 
 .navbar-links {
   display: flex;
-  gap: 20px; /* Espacio entre los enlaces */
+  gap: 20px;
 }
 
 .nav-link {
-  color: #faf3f3; /* Color del texto de los enlaces */
+  color: #faf3f3; 
 }
 
 .navbar{
@@ -35,14 +34,14 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../public/fondooo.jpg'); /* Cambia la ruta a tu imagen de fondo */
+  background-image: url('../public/fondooo.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+  background-attachment: fixed; 
   font-family: Arial, sans-serif;
 }
 
-/* Footer.css */
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -66,7 +65,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #e5e9ee; /* Cambia el color al pasar el cursor sobre el enlace */
+  color: #e5e9ee; 
 }
 
 .main-content {
@@ -76,20 +75,18 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra horizontalmente */
+  align-items: center; 
   min-height: 100vh;
   overflow: auto;
 }
 
-/* cards styles */
 
 .card {
-  border: 1px solid #111010; /* Borde de 1px de grosor y color gris (#ccc) */
-  /* Otros estilos de la tarjeta */
+  border: 1px solid #111010; 
 }
 .recipe-card {
   background-color:#ffffff  ;
-  margin-top: 30px ; /* Agrega margen superior e inferior */
+  margin-top: 30px ; 
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -102,27 +99,27 @@ body {
 
 
 .card-img img {
-  width: 300px; /* Ancho de la imagen */
-  height: 350px; /* Altura de la imagen */
-  object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
-  display: block; /* Asegura que la imagen sea un elemento en línea */
-  border-radius: 8px 0 0 8px; /* Agrega bordes redondeados si lo deseas */
-  margin-right: 100px; /* Margen derecho para separar la imagen del texto */
+  width: 300px; 
+  height: 350px; 
+  object-fit: cover; 
+  display: block; 
+  border-radius: 8px 0 0 8px; 
+  margin-right: 100px; 
   flex: 0 0 auto;
   margin-right: 0px;
 }
 
 .card-info {
-  max-width: 500px; /* Ajusta este valor según tus preferencias */
-  margin: 0 auto; /* Centrar el elemento en la página si lo deseas */
-  padding: 20px; /* Agregar espacio interno alrededor del contenido */
-  border: 1px solid #ccc; /* Opcional: agregar un borde para resaltar el elemento */
+  max-width: 500px; 
+  margin: 0 auto; 
+  padding: 20px;
+  border: 1px solid #ccc; 
   
 }
 .card-body {
   overflow: hidden;
   margin-top: 15px;
-  margin-left: -540px; /* Ajusta este valor para mover el texto más a la izquierda */
+  margin-left: -540px; 
 }
 
 .card-title {
@@ -138,8 +135,8 @@ body {
 svg {
   width: 35px;
   height: 30px;
-  fill: #333; /* Color de los íconos */
-  margin-left: 10px; /* Espacio entre los íconos y el contenido */
+  fill: #333; 
+  margin-left: 10px;
   margin-top: 10px;
 }
 
@@ -160,16 +157,17 @@ svg {
 .vegetable-icons {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Cambiado de "flex-end" a "flex-start" */
-  margin-bottom: 30px; /* Espacio entre los iconos y el título/descripción */
+  justify-content: flex-start; 
+  margin-bottom: 30px; 
 
 }
 .more-info-icons {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  align-items: flex-start; 
   gap: 8px;
   width: 100%;
+  margin-top: 30px;
 }
 .icon-content {
   display: flex;
@@ -179,8 +177,8 @@ svg {
 }
 
 .icon img {
-  width: 32px; /* Establece el ancho deseado para todas las imágenes */
-  height: 32px; /* Establece la altura deseada para todas las imágenes */
+  width: 32px; 
+  height: 32px; 
 }
 
 
@@ -188,8 +186,8 @@ svg {
 nav ul {
   display: flex;
   justify-content: space-between;
-  list-style-type: none; /* Esto elimina las viñetas */
-  padding: 0; /* Elimina el espacio de relleno por defecto de las listas */
+  list-style-type: none; 
+  padding: 0; 
 
 }
 
